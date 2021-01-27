@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My library</title>
+</head>
+<body>
+    <header>
+        <h1>My Library</h1>
+        <button id="add-book-button" class="basic-button">+</button>
+        <form id="book-form">
+            <label for="title">Title</label>
+            <input id="title" name="title" type="text">
+            <label for="author">Author</label>
+            <input id="author" name="author" type="text">
+            <label for="pages">Pages</label>
+            <input id="pages" name="pages" type="number">
+        </form>
+        <button id="submit-form-button" class="basic-button">&#10003</button>
+    </header>
+    <main>
+        <div id="book-container">
+        </div>
+        <div id="book-info">
+            <div id="book-page">
+                <h2>Un titulo excesivamente largo y complicado para una novelita de mierda.</h2>
+                <p>Author</p>
+            </div>
+            <div id="book-page2">
+                <h4>Pages</h4>
+                <button class="book-options-button">Sign as read</button>
+                <button id="remove-book-button" class="book-options-button">Remove from library</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
